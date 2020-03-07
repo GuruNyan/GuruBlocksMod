@@ -1,0 +1,19 @@
+{
+	"name": "トーチ力",
+	"description": "高コストで場所を取りますが非常に耐久力が高い壁です。",
+	"health": 10000,
+	"size": 5,
+	"update": true,
+	"BlockGroup": "walls",
+	"solid": true,
+	"buildCostMultiplier": 1,
+	"requirements": [
+		{ "item": "copper", "amount": 1000 },
+		{ "item": "titanium", "amount": 500 },
+		{ "item": "plastanium", "amount": 100 },
+		{ "item": "phase-fabric", "amount": 150 },
+		{ "item": "surge-alloy", "amount": 100 }
+	],
+	"category": "defense",
+	"research": "surge-wall-large"
+}

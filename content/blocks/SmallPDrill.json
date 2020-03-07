@@ -1,0 +1,22 @@
+{
+	"name": "空気圧ドリル(ミニ)",
+	"description": "空気圧ドリルの小さいやつです。",
+	"type": "Drill",
+	"size": 1,
+	"tier": 3,
+	"drillTime": 400,
+	"consumes": {
+		"liquid": {
+			"liquid": "water", 
+			"amount": 0.015,
+			"optional": true,
+			"booster": true
+		}
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 4 },
+		{ "item": "graphite", "amount": 2 }
+	],
+	"category": "production",
+	"research": "pneumatic-drill"
+}

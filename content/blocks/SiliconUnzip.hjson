@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: ボックス開封機(シリコン)
+description: シリコン箱1つの中にある10個のシリコンを開封します。
+health: 300
+liquidCapacity: 0
+itemCapacity:30
+size: 1
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 0
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.0833
+  items: {
+    items: [
+      SiliconBox/1
+    ]
+  }
+}
+requirements: [
+  copper/50
+  lead/50
+  graphite/30
+]
+category: crafting
+research: SiliconZip
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: silicon/10

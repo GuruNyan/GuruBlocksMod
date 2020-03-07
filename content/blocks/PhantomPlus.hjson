@@ -1,0 +1,25 @@
+type: UnitFactory
+localizedName: ファントム製造機(電力)
+description: 電力のみ使うファントム製造機です。
+health: 300
+produceTime: 6000
+maxSpawn: 4
+unitType: phantom
+hasPower: true
+itemCapacity: 0
+consumes: {
+  power: 15
+  items: {
+    items: [
+    ]
+  }
+}
+size: 2
+category: units
+requirements: [
+  lead/195
+  titanium/150
+  thorium/180
+  silicon/315
+]
+research: phantom-factory

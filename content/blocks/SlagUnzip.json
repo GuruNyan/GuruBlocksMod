@@ -1,0 +1,26 @@
+{
+	"type": "Fracker",
+	"name": "容器開封機(溶岩)",
+	"description": "液体をメタガラスの容器から取り出す装置。",
+	"health": 400,
+	"result": "slag",
+	"consumes":
+	{
+		"power": 0.833,
+		"items": {
+		  "items": [
+                {"item": "SlagBottle", "amount": 1}
+     ]
+	  }
+	},
+	"size": 2,
+	"pumpAmount": 0.334,
+	"requirements": [
+		{"item": "copper", "amount": 100},
+		{"item": "lead", "amount": 100},
+   {"item": "metaglass", "amount": 7}
+	],
+	"category": "production",
+	"research": "SlagZip",
+	"liquidCapacity": 30
+}

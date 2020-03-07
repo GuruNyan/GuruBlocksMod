@@ -1,0 +1,17 @@
+{
+	"type": "Conveyor",
+	"name": "トリウムコンベア",
+	"description": "上位のアイテム輸送ブロックです。チタンコンベアよりも速くアイテムを輸送します。",
+	"health": 100,
+ "itemCapacity": 8,
+	"requirements": [
+		{"item": "copper", "amount": 1},
+		{"item": "lead", "amount": 1},
+		{"item": "titanium", "amount": 1},
+		{"item": "thorium", "amount": 1}
+	],
+	"category": "distribution",
+	"speed": 0.19,
+ "displayedSpeed": 15
+	"research": "titanium-conveyor"
+}

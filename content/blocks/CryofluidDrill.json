@@ -1,0 +1,29 @@
+{
+	"name": "最上位ドリル",
+	"description": "大量の電力や冷却水を使用します。冷却水は必須です。",
+ "health": 1000,
+	"type": "Drill",
+	"size": 2,
+	"tier": 100,
+	"drillTime": 25,
+ "buildCostMultiplier": 0.294
+ "liquidCapacity":15,
+ "itemCapacity":20,
+	"consumes": {
+   "power": 5,
+		"liquid": {
+			"liquid": "cryofluid", 
+			"amount": 0.1,
+			"optional": false,
+			"booster": false
+		}
+	},
+	"requirements": [
+   { "item": "copper", "amount": 150 },
+		{ "item": "thorium", "amount": 150 },
+		{ "item": "silicon", "amount": 150 },
+		{ "item": "graphite", "amount": 150 }
+	],
+	"category": "production",
+	"research": "blast-drill"
+}

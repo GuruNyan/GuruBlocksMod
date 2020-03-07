@@ -1,0 +1,34 @@
+type: GenericCrafter
+name: 液体梱包機(冷却水)
+description: チタンとトリウムを用いることで冷却水をコンベアで運搬可能にする装置。真空加工なので触っても冷たくない。
+health: 500
+liquidCapacity: 30
+itemCapacity:30
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 20
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.0833
+  liquid: {
+    liquid: cryofluid
+    amount: 1
+  }
+  items: {
+    items: [
+      titanium/10
+      thorium/10
+    ]
+  }
+}
+requirements: [
+  titanium/50
+  thorium/50
+]
+category: crafting
+research: duo
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: CryofluidBottle/1

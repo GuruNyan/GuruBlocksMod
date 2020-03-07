@@ -1,0 +1,13 @@
+name: 250ミリオンボールト
+description: 250ミリオン(2億5000万)アイテム入るボールトです。耐久値は絶望的です。
+type: Vault
+itemCapacity: 250000000
+hasItems: true
+health: 1
+consumesPower:false
+size: 1
+requirements: [
+ copper/1
+]
+category: effect
+research:  vault

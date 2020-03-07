@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: 鉱石梱包機(チタン)
+description: チタン10個を1つのチタン箱にまとめます。
+health: 300
+liquidCapacity: 30
+itemCapacity:30
+size: 1
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 20
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.0833
+  items: {
+    items: [
+      titanium/10
+    ]
+  }
+}
+requirements: [
+  copper/50
+  lead/50
+  graphite/30
+]
+category: crafting
+research: duo
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: TitaniumBox/1

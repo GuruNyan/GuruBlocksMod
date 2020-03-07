@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: 鉱石梱包機(石炭)
+description: 石炭10個を1つの石炭箱にまとめます。(※特殊な箱を使っています、絶対に真似しないでください。)
+health: 350
+liquidCapacity: 30
+itemCapacity:30
+size: 1
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 25
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.0833
+  items: {
+    items: [
+      coal/10
+    ]
+  }
+}
+requirements: [
+  copper/50
+  lead/50
+  graphite/30
+]
+category: crafting
+research: duo
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: CoalBox/1

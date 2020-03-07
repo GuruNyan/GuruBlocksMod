@@ -1,0 +1,32 @@
+name: 加速ステーション
+description: 超大型の加速ステーション。\n恩恵もコストもオーバースペック。
+type: OverdriveProjector
+health: 1500
+size: 5
+requirements: [
+ LeadBox/100
+ TitaniumBox/75
+ SiliconBox/75
+ PlastaniumBox/30
+]
+category: effect
+research:  overdrive-projector
+buildCostMultiplier:3
+hasPower:true
+consumes: {
+  power: 26.66671
+  items: {
+   booster:true
+   optional:true
+    items: [
+	    PhaseBox/1
+    ]
+  }
+}
+
+reload:60
+range:400
+speedBoost:2
+speedBoostPhase:12
+phaseRangeBoost:0
+useTime:160

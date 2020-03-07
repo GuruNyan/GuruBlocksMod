@@ -1,0 +1,34 @@
+type: GenericCrafter
+name: 液体梱包機(溶岩)
+description: メタガラスで保存することによってコンベアでの運搬を可能にする装置。
+health: 400
+liquidCapacity: 30
+itemCapacity:30
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 20
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.0833
+  liquid: {
+    liquid: slag
+    amount: 1
+  }
+  items: {
+    items: [
+      metaglass/10
+    ]
+  }
+}
+requirements: [
+  copper/100
+  lead/100
+  metaglass/50
+]
+category: crafting
+research: duo
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: SlagBottle/1

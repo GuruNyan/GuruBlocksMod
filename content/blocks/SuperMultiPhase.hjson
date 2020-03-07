@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: スーパーマルチフェーズ織機
+description: マルチフェーズ織機の上位版です。
+health: 350
+itemCapacity:100
+size: 5
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+  power: 12
+  items: {
+    items: [
+      thorium/10
+      sand/20
+    ]
+  }
+  liquid: {
+			liquid: water
+			amount: 0.3
+  }
+}
+requirements: [
+  lead/500
+  thorium/300
+  silicon/500
+  phase-fabric/75
+]
+category: crafting
+research: MultiPhase
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: phase-fabric/4

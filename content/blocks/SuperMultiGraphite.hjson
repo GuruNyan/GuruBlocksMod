@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: スーパーマルチ圧縮機
+description: マルチ圧縮機の上位版です。
+health: 360
+liquidCapacity: 50
+itemCapacity:50
+size: 5
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+  power: 6
+  items: {
+    items: [
+      coal/5
+    ]
+  }
+  liquid: {
+			liquid: water
+			amount: 0.1
+		}
+}
+requirements: [
+  lead/150
+  graphite/100
+  titanium/150
+  silicon/50
+]
+category: crafting
+research: multi-press
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: graphite/3

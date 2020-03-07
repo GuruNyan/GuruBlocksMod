@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: 携帯バッテリー製造機
+description: 銅、鉛、シリコンで作られた、いわゆる乾電池。保存可能だが、設置型のバッテリーと比べてコストが高く使い捨てなのがたまに傷。
+health: 300
+liquidCapacity: 30
+itemCapacity:60
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 20
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.0833
+  items: {
+    items: [
+      copper/20
+      silicon/20
+    ]
+  }
+}
+requirements: [
+  copper/50
+  lead/50
+  graphite/15
+]
+category: crafting
+research: duo
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: SiliconBattery/1

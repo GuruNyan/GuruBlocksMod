@@ -1,0 +1,35 @@
+type: GenericCrafter
+name: マルチフェーズ織機
+description: フェーズ織機の上位版です。
+health: 150
+itemCapacity:60
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 5
+  items: {
+    items: [
+      thorium/6
+      sand/14
+    ]
+  }
+  liquid: {
+			liquid: water
+			amount: 0.05
+  }
+}
+requirements: [
+  lead/250
+  thorium/150
+  silicon/300
+  phase-fabric/50
+]
+category: crafting
+research: phase-weaver
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: phase-fabric/2

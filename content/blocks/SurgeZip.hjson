@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: 鉱石梱包機(サージ合金)
+description: サージ合金10個を1つのサージ合金箱にまとめます。高級素材なのでかなり慎重に梱包します。
+health: 500
+liquidCapacity: 30
+itemCapacity:30
+size: 1
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 35
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.0833
+  items: {
+    items: [
+      surge-alloy/10
+    ]
+  }
+}
+requirements: [
+  copper/50
+  lead/50
+  graphite/30
+]
+category: crafting
+research: duo
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: SurgeBox/1

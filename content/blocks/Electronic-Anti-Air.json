@@ -1,0 +1,28 @@
+{
+    "type": "PowerTurret",
+    "name": "電子対空砲",
+    "Description": "電気の力を使った対空砲です。",
+    "health": 500,
+    "category": "turret",
+    "size": 1,
+    "reload": 300,
+    "shootCone": 40,
+    "shootType": "arc",
+    "rotateSpeed": 20,
+    "hasPower": true,
+    "powerUse": 1.5,
+    "targetAir": true,
+    "targetGround": false,
+    "range": 100,
+    "shootEffect": "lightningShoot",
+    "heatColor": "Color.red",
+    "recoil": 3,
+    "shots": 10,
+    "buildCostMultiplier": 2,
+    "shootSound": "spark",
+    "research": "arc",
+    "requirements": [
+        {"item": "copper", "amount": 150},
+        {"item": "lead", "amount": 100}
+    ]
+}

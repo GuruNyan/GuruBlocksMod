@@ -1,0 +1,55 @@
+type: DoubleTurret
+name: 電子海
+description: 初期に生産可能なレーザータレット。
+health: 500
+size: 2
+reload: 2
+range: 144
+ammoUseEffect: shellEjectSmall
+inaccuracy: 0
+rotatespeed: 1000
+ammo: {
+  coal: {
+    speed: 2
+    damage: 5
+    bulletWidth: 16
+    bulletHeight: 24
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1
+    homingPower:64
+    homingRange:32
+  }
+  SiliconBattery: {
+    speed: 2
+    damage: 5
+    bulletWidth: 16
+    bulletHeight: 24
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 5
+    homingPower:64
+    homingRange:32
+  }
+  SurgeBattery: {
+    speed: 2
+    damage: 5
+    bulletWidth: 16
+    bulletHeight: 24
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 10
+    homingPower:64
+    homingRange:5
+    lighting:2
+    lightingLength:20
+    splashDamage:2
+    splashDamageRadius:24
+  }
+}
+requirements: [
+  copper/750
+  lead/750
+]
+category: turret
+research: duo

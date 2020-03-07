@@ -1,0 +1,36 @@
+type: GenericCrafter
+name: マルチプラスタニウム圧縮機
+description: プラスタニウム圧縮機の上位版です。
+health: 500
+liquidCapacity: 60
+itemCapacity:30
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+  power: 5
+  items: {
+    items: [
+      titanium/3
+    ]
+  }
+  liquid: {
+			liquid: oil
+			amount: 0.5
+		}
+}
+requirements: [
+  lead/250
+  titanium/200
+  silicon/200
+  graphite/150
+  plastanium/50
+]
+category: crafting
+research: plastanium-compressor
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: plastanium/2

@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: ストロンギウム製造機
+description: いくつかの鉱石をストロンギウムに固めます
+health: 700
+liquidCapacity: 0
+itemCapacity:30
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 180
+updateEffect: smeltsmoke
+consumes: {
+  power: 6
+  items: {
+    items: [
+      CopperBox/10
+      GraphiteBox/3
+      TitaniumBox/3
+    ]
+  }
+}
+requirements: [
+  copper/200
+  silicon/150
+  titanium/100
+]
+category: crafting
+research: ripple
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: Strongium/1

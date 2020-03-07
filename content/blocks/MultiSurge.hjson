@@ -1,0 +1,37 @@
+type: GenericCrafter
+name: マルチ合金溶鉱炉
+description: 合金溶鉱炉の上位版です。
+health: 150
+itemCapacity:100
+size: 4
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 10
+  items: {
+    items: [
+      copper/5
+      lead/6
+      titanium/4
+      silicon/5
+    ]
+  }
+  liquid: {
+			liquid: water
+			amount: 0.05
+  }
+}
+requirements: [
+  lead/200
+  thorium/150
+  silicon/200
+  surge-alloy/50
+]
+category: crafting
+research: alloy-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: surge-alloy/2

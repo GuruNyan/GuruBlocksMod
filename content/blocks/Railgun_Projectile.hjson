@@ -1,0 +1,35 @@
+type: DoubleTurret
+name: レールガン
+description: 超高火力、超広射程ですが、長時間のリロードが必要です。
+health: 1700
+size: 3
+reload: 120
+range: 368
+shots: 1
+ammoUseEffect: shellEjectSmall
+inaccuracy: 5
+rotatespeed: 20
+hasPower: true
+powerUse: 20
+targetAir: false
+targetGround: true
+ammo: {
+  Strongium: {
+    speed: 100
+    damage: 650
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1
+    splashDamage: 325
+    splashDamageRadius: 24
+  }
+}
+requirements: [
+  copper/230
+  silicon/175
+  titanium/120
+]
+category: turret
+research: ripple

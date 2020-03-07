@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: ボックス開封機(スクラップ)
+description: スクラップ箱1つの中にある10個のスクラップを開封します。...ゴミ箱じゃないから!
+health: 300
+liquidCapacity: 0
+itemCapacity:30
+size: 1
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 0
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.0833
+  items: {
+    items: [
+      ScrapBox/1
+    ]
+  }
+}
+requirements: [
+  copper/50
+  lead/50
+  graphite/30
+]
+category: crafting
+research: ScrapZip
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: scrap/10

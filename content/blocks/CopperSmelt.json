@@ -1,0 +1,26 @@
+{
+	"type": "Fracker",
+	"name": "鉱石溶鉱炉(銅)",
+	"description": "鉱石を高温で溶かすことによって、パイプでの運搬を可能にします。",
+	"health": 300,
+	"result": "LiquidCopper",
+	"consumes":
+	{
+		"power": 5,
+		"items": {
+		"items": [
+            {"item": "copper", "amount": 1}
+        ]
+	}
+	},
+	"size": 2,
+	"pumpAmount": 0.05,
+	"requirements": [
+		{"item": "copper", "amount": 75},
+		{"item": "lead", "amount": 75},
+   {"item": "graphite", "amount": 50}
+	],
+	"category": "production",
+	"research": "duo",
+	"liquidCapacity": 30
+}

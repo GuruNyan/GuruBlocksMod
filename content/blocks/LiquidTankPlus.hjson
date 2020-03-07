@@ -1,0 +1,13 @@
+type: liquidTank
+name: 液体火薬庫
+health: 3000
+size: 3
+description: 前線でトラップとして運用することに特化した液体貯蔵庫。大容量、高耐久の組み合わせが敵の施設をコッパ微塵にするだろう。
+liquidCapacity: 100000
+hasLiquids: true
+requirements: [
+  Strongium/25
+  metaglass/25
+]
+category: liquid
+research: liquid-tank

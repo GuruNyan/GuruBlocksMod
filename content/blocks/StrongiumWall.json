@@ -1,0 +1,15 @@
+{
+	"name": "ストロンギウムウォール",
+	"description": "最強です。誰がどう見ても最強の壁です。",
+	"health": 10000,
+	"size": 1,
+	"update": true,
+	"BlockGroup": "walls",
+	"solid": true,
+	"buildCostMultiplier": 1,
+	"requirements": [
+		{ "item": "Strongium", "amount": 10 }
+	],
+	"category": "defense",
+	"research": "StrongiumP"
+}

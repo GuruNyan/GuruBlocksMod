@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: ボックス開封機(胞子ポッド)
+description: 胞子ポッド箱1つの中にある10個の胞子ポッドを開封します。
+health: 300
+liquidCapacity: 0
+itemCapacity:30
+size: 1
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 0
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.0833
+  items: {
+    items: [
+      SporeBox/1
+    ]
+  }
+}
+requirements: [
+  copper/50
+  lead/50
+  graphite/30
+]
+category: crafting
+research: SporeZip
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: spore-pod/10

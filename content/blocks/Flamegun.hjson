@@ -1,0 +1,141 @@
+type: DoubleTurret
+name: 火炎放射器
+description: 遠方まで投射できるようになったウェーブ。固形化したスラグの他にさまざまな燃焼アイテムを投射可能。
+health: 1000
+size: 2
+reload: 7.5
+range: 240
+ammoUseEffect: shellEjectSmall
+inaccuracy: 3
+rotatespeed: 600
+ammo: {
+  coal: {
+    damage:0
+    speed: 10
+    bulletWidth: 8
+    bulletHeight: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 12
+    splashDamage:17.6
+    splashDamageRadius:40
+    incendAmount: 1500
+    frontColor: ff8000
+    backColor: ffff00
+    hitEffect: flakExplosionBig
+  }
+  pyratite: {
+    damage:0
+    speed: 10
+    bulletWidth: 8
+    bulletHeight: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 12
+    splashDamage:24
+    splashDamageRadius:40
+    incendAmount: 1500
+    frontColor: ff8000
+    backColor: ffff00
+    hitEffect: flakExplosionBig
+  }
+  blast-compound: {
+    damage:0
+    speed: 10
+    bulletWidth: 8
+    bulletHeight: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 12
+    splashDamage:40
+    splashDamageRadius:40
+    incendAmount: 1500
+    frontColor: ff8000
+    backColor: ffff00
+    hitEffect: flakExplosionBig
+  }
+  CoalBox: {
+    damage: 0
+    speed: 10
+    bulletWidth: 8
+    bulletHeight: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1
+    splashDamage:17.6
+    splashDamageRadius:40
+    incendAmount: 1500
+    frontColor: ff8000
+    backColor: ffff00
+    hitEffect: flakExplosionBig
+  }
+  PyratiteBox: {
+    damage: 0
+    speed: 10
+    bulletWidth: 8
+    bulletHeight: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1
+    splashDamage:24
+    splashDamageRadius:40
+    incendAmount: 1500
+    frontColor: ff8000
+    backColor: ffff00
+    hitEffect: flakExplosionBig
+  }
+  BlastBox: {
+    damage: 0
+    speed: 10
+    bulletWidth: 8
+    bulletHeight: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1
+    splashDamage:40
+    splashDamageRadius:40
+    incendAmount: 1500
+    frontColor: ff8000
+    backColor: ffff00
+    hitEffect: flakExplosionBig
+  }
+  SlagBottle: {
+    damage: 0
+    speed: 10
+    bulletWidth: 9
+    bulletHeight: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1
+    splashDamage:8
+    splashDamageRadius:40
+    incendAmount: 3000
+    frontColor: ff8000
+    backColor: ffff00
+    hitEffect: flakExplosionBig
+  }
+  OilBottle: {
+    damage: 0
+    speed: 10
+    bulletWidth: 8
+    bulletHeight: 10
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1
+    splashDamage:4
+    splashDamageRadius:40
+    incendAmount: 3000
+    frontColor: ff8000
+    backColor: ffff00
+    hitEffect: flakExplosionBig
+  }
+
+}
+requirements: [
+  copper/100
+  graphite/100
+  titanium/40
+  metaglass/100
+]
+category: turret
+research: duo

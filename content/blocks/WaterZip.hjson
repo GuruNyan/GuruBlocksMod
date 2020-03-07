@@ -1,0 +1,34 @@
+type: GenericCrafter
+name: 液体梱包機(水)
+description: 液体を銅と鉛の容器に入れることで、コンベアでの運搬を可能にする装置。
+health: 300
+liquidCapacity: 30
+itemCapacity:30
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 20
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.0833
+  liquid: {
+    liquid: water
+    amount: 1
+  }
+  items: {
+    items: [
+      copper/10
+      lead/10
+    ]
+  }
+}
+requirements: [
+  copper/50
+  lead/50
+]
+category: crafting
+research: duo
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: WaterBottle/1

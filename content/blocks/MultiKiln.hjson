@@ -1,0 +1,36 @@
+type: GenericCrafter
+name: マルチ溶鉱炉
+description: 溶鉱炉の上位版です。
+health: 300
+liquidCapacity: 300
+itemCapacity:40
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+  power: 2
+  items: {
+    items: [
+      lead/4
+      sand/4
+    ]
+  }
+  liquid: {
+			liquid: water
+			amount: 0.25
+		}
+}
+requirements: [
+  lead/150
+   graphite/80
+  titanium/100
+  silicon/80
+]
+category: crafting
+research: kiln
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: metaglass/4

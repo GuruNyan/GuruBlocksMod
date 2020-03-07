@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: 鉱石製造機(銅)
+description: 溶けた鉱石を入れることで元の2倍の鉱石を製造することができます。
+health: 300
+liquidCapacity: 30
+itemCapacity:30
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 20
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.0833
+  liquid: {
+    liquid: LiquidCopper
+    amount: 0.15
+  }
+  #鋳型を使わないといけないようにしたかったけど、そうすると鋳型を作るために銅とかが必要になるのでやめました。
+}
+requirements: [
+  copper/50
+  lead/50
+  graphite/25
+]
+category: crafting
+research: CopperSmelt
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: copper/1

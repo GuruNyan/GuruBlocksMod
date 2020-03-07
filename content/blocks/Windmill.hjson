@@ -1,0 +1,20 @@
+type: SolarGenerator
+name: 風力発電機
+description: 風力を用いた発電機です。発電量は少ないですが低コストです。
+size: 1
+hasPower: true
+hasItems: true
+itemDuration: 30
+powerProduction: 0.05
+consumes: {
+  items: {
+    items: [
+    ]
+    optional: true
+  }
+}
+requirements: [
+  copper/20
+]
+category: power
+research: power-node

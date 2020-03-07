@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: サージバッテリー製造機
+description: 携帯バッテリーよりも高い性能を持ちます。
+health: 500
+liquidCapacity: 60
+itemCapacity:30
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 20
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.0833
+  items: {
+    items: [
+      titanium/20
+      surge-alloy/20
+    ]
+  }
+}
+requirements: [
+  titanium/60
+  surge-alloy/60
+  silicon/15
+]
+category: crafting
+research: SiliconBatteryP
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: SurgeBattery/1

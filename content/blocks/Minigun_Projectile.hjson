@@ -1,0 +1,272 @@
+type: DoubleTurret
+name: ミニガン
+description: 超連射型タレットです。
+health: 1000
+size: 2
+reload: 0.5
+shots:10
+range: 200
+ammoUseEffect: shellEjectSmall
+inaccuracy: 15
+rotatespeed: 600
+maxAmmo:300
+recoil: 1
+ammo: {
+  copper: {
+    speed: 10
+    damage: 2
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1
+    reloadMultiplier: 0.3
+  }
+  lead: {
+    speed: 10
+    damage: 6
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1
+    reloadMultiplier: 0.3
+  }
+  coal: {
+    speed: 10
+    damage: 8
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1
+    reloadMultiplier: 0.3
+    incendAmount: 15
+  }
+  sand: {
+    speed: 10
+    damage: 8
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1
+    reloadMultiplier: 0.3
+  }
+  titanium: {
+    speed: 10
+    damage: 14
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1
+    reloadMultiplier: 0.5
+  }
+  thorium: {
+    speed: 10
+    damage: 20
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1
+    reloadMultiplier: 1
+  }
+  metaglass: {
+    speed: 10
+    damage: 14
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1
+    reloadMultiplier: 1
+  }
+  silicon: {
+    speed: 10
+    damage: 10
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1
+    reloadMultiplier: 0.5
+    homingPower: 2
+    homingRange: 50
+  }
+  graphite: {
+    speed: 10
+    damage: 14
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1
+    reloadMultiplier: 0.7
+  }
+  pyratite: {
+    speed: 10
+    damage: 20
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1
+    reloadMultiplier: 1
+    splashDamageRadius: 20
+			splashDamage: 20
+			lifetime: 100
+  }
+  blast-compound: {
+    speed: 10
+    damage: 30
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+    reloadMultiplier: 1.5
+    splashDamageRadius: 25
+			splashDamage: 40
+			lifetime: 100
+  }
+  plastanium: {
+    speed: 10
+    damage: 30
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+    reloadMultiplier: 1.5
+  }
+  phase-fabric: {
+    speed: 10
+    damage: 40
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 2
+    reloadMultiplier: 1.5
+  }
+  surge-alloy: {
+    speed: 10
+    damage: 60
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 3
+    reloadMultiplier: 3
+  }
+  CopperBox: {
+    speed: 10
+    damage: 20
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 10
+    reloadMultiplier: 3
+    shots: 10
+    spacing: 1
+  }
+  LeadBox: {
+    speed: 10
+    damage: 60
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 10
+    reloadMultiplier: 3
+    shots: 10
+    spacing: 1
+  }
+  CoalBox: {
+    speed: 10
+    damage: 80
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 10
+    reloadMultiplier: 3
+    incendAmount: 15
+    shots: 10
+    spacing: 1
+  }
+  SandBox: {
+    speed: 10
+    damage: 80
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 10
+    reloadMultiplier: 3
+    shots: 10
+    spacing: 1
+  }
+  TitaniumBox: {
+    speed: 10
+    damage: 140
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 10
+    reloadMultiplier: 5
+    shots: 10
+    spacing: 1
+  }
+  ThoriumBox: {
+    speed: 10
+    damage: 200
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 10
+    reloadMultiplier: 10
+    shots: 10
+    spacing: 1
+  }
+  SiliconBox: {
+    speed: 10
+    damage: 100
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 10
+    reloadMultiplier: 5
+    homingPower: 2
+    homingRange: 50
+    shots: 10
+    spacing: 1
+  }
+  GraphiteBox: {
+    speed: 10
+    damage: 140
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 10
+    reloadMultiplier: 7
+    shots: 10
+    spacing: 1
+  }
+}
+requirements: [
+  copper/300
+  lead/300
+  titanium/150
+  graphite/100
+  plastanium/50
+]
+category: turret
+research: salvo

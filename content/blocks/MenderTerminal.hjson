@@ -1,0 +1,40 @@
+name: 修復ターミナル
+description: 緊急回復用にも役に立ちます。
+type: MendProjector
+color:84f491
+health: 256
+size: 5
+requirements: [
+ lead/200
+ titanium/50
+ silicon/80
+]
+category: effect
+research:  mend-projector
+hasPower:true
+consumes: {
+  power: 1
+
+   items: {
+   booster:true
+   optional:true
+    items: [
+	    SiliconBox/1
+    ]
+  }
+}
+
+reload:110
+range:120
+healpercent:30
+phaseRangeBoost: 40
+phaseBoost:18
+useTime:400
+
+
+
+
+
+
+
+

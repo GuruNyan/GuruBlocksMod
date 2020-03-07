@@ -1,0 +1,26 @@
+type: DoubleTurret
+name: HPSR
+description: Powerful,but short range.
+health: 1000
+size: 1
+reload: 1
+range: 15.9
+ammoUseEffect: shellEjectSmall
+inaccuracy: 0
+rotatespeed: 600
+ammo: {
+  copper: {
+    speed: 10
+    damage: 7500
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1
+  }
+}
+requirements: [
+  copper/250
+]
+category: turret
+research: duo

@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: ボックス開封機(爆発性化合物)
+description: 爆発性化合物箱1つの中にある10個の爆発性化合物を安全に開封します。
+health: 350
+liquidCapacity: 0
+itemCapacity:30
+size: 1
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.0833
+  items: {
+    items: [
+      BlastBox/1
+    ]
+  }
+}
+requirements: [
+  copper/50
+  lead/50
+  graphite/30
+]
+category: crafting
+research: BlastZip
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: blast-compound/10

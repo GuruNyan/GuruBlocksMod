@@ -1,0 +1,33 @@
+type: DoubleTurret
+name: スーパーサンドガン
+description: 砂を用いた超連射型タレットです。
+health: 1000
+size: 3
+reload: 0.5
+shots: 10
+range: 240
+itemCapacity: 50
+ammoUseEffect: shellEjectSmall
+inaccuracy: 15
+rotatespeed: 600
+ammo: {
+  SandBox: {
+    speed: 10
+    damage: 300
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 15
+    reloadMultiplier: 3
+  }
+}
+requirements: [
+  copper/300
+  lead/300
+  titanium/150
+  graphite/100
+  plastanium/50
+]
+category: turret
+research: salvo

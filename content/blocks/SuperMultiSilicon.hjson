@@ -1,0 +1,36 @@
+type: GenericCrafter
+name: スーパーマルチシリコン溶鉱炉
+description: マルチシリコン溶鉱炉の上位版です。
+health: 360
+liquidCapacity: 50
+itemCapacity:50
+size: 5
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+  power: 6
+  items: {
+    items: [
+      coal/5
+      sand/3
+    ]
+  }
+  liquid: {
+			liquid: water
+			amount: 0.1
+		}
+}
+requirements: [
+  copper/150
+  lead/100
+  titanium/150
+  silicon/50
+]
+category: crafting
+research: MultiSilicon
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: silicon/3

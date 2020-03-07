@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: ボックス開封機(サージ合金)
+description: サージ合金箱1つの中にある10個のサージ合金を開封します。高級素材なのでかなり慎重に開封します。
+health: 500
+liquidCapacity: 0
+itemCapacity:30
+size: 1
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 20
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.0833
+  items: {
+    items: [
+      SurgeBox/1
+    ]
+  }
+}
+requirements: [
+  copper/50
+  lead/50
+  graphite/30
+]
+category: crafting
+research: SurgeZip
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: surge-alloy/10

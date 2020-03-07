@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: ボックス開封機(石炭)
+description: 石炭箱1つの中にある10個の石炭を安全に開封します。
+health: 350
+liquidCapacity: 0
+itemCapacity:30
+size: 1
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 10
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.0833
+  items: {
+    items: [
+      CoalBox/1
+    ]
+  }
+}
+requirements: [
+  copper/50
+  lead/50
+  graphite/30
+]
+category: crafting
+research: CoalZip
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: coal/10
