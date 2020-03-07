@@ -1,6 +1,6 @@
-name: ""
-displayName: ""
-author: ""
-description: ""
-version: 0.0
-minGameVersion: 104
+name: "Add some blocks Mod"
+displayName: "[red]B[yellow]l[pink]o[red]k[yellow]s[white] Mod" //what displays in the mod selection menu
+author: "Guru"
+description: "My first mod.This mod will add some blocks."
+version: "11"
+minGameVersion: "100"
