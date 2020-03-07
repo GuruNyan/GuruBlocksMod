@@ -1,0 +1,8 @@
+{
+	"name": "液体銅",
+	"description": "溶かした銅です。パイプで運搬できます。",
+	"temperature": 10.85,
+	"viscosity": 0.5,
+	"effect": "burning",
+	"color": "ff8000"
+}
