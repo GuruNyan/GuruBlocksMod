@@ -1,9 +1,4 @@
-# MindustryMod-Template
-Mindustry Mod Template
-日本人向け(英語の対応が難しいため)
-
-フォルダを削除したい場合はフォルダ内の".gitkeep"を消してください。
-
+# GuruBlocksMod
 製作:Guru<br>
 アイデア:軍鶏さん、kumaさん、紀伊さん、みらい☆ミさん、眠人狼ねむっちさん、wichealdaさん(実装できませんでした、すみません)<br>
 ありがとうございます。<br>
