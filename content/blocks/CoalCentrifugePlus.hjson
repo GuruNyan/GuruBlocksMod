@@ -1,0 +1,37 @@
+type: GenericCrafter
+name: 石炭遠心分離機(改)
+description: 砂から石油を回収し直接石炭へ加工します。
+health: 420
+liquidCapacity: 30
+itemCapacity:10
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 21
+updateEffect: smeltsmoke
+consumes: {
+  power: 4
+  items: {
+    items: [
+      sand/3
+    ]
+  }
+  liquid: {
+    liquid: water
+    amount: 0.428
+  }
+}
+requirements: [
+  copper/200
+  lead/150
+  graphite/210
+  thorium/150
+  titanium/30
+  silicon/75
+]
+category: crafting
+research: coal-centrifuge
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: coal/2
