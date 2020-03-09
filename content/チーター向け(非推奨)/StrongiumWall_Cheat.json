@@ -1,0 +1,15 @@
+{
+	"name": "ブラックストロンギウムウォール",
+	"description": "最強です。誰がどう見ても最強の壁です。本当の最強。",
+	"health": 2147483647,
+	"size": 1,
+	"update": true,
+	"BlockGroup": "walls",
+	"solid": true,
+	"buildCostMultiplier": 1,
+	"requirements": [
+		{ "item": "Strongium", "amount": 1 }
+	],
+	"category": "defense",
+	"research": "StrongiumP"
+}
