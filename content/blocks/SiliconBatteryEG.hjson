@@ -1,0 +1,26 @@
+{
+	"type": "SingleTypeGenerator",
+	"name": "バッテリ発電機(携帯型)",
+	"description": "携帯バッテリで発電します。",
+ "health":60,
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"itemDuration": 200,
+	"powerProduction": 0.3,
+	"consumes": {
+		     "items": {
+			"items": [
+				{ "item": "SiliconBattery", "amount": 1 }
+			],
+			"optional": false
+		},
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 50 },
+		{ "item": "lead", "amount": 50 },
+   graphite/15
+	],
+	"category": "power",
+	"research": "SiliconBatteryP"
+}

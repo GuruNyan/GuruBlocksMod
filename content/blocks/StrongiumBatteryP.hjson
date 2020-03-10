@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: ストロンギウムバッテリー製造機
+description: サージバッテリーよりも高い性能を持ちます。
+health: 1000
+liquidCapacity: 60
+itemCapacity:30
+size: 2
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 20
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.5
+  items: {
+    items: [
+      Strongium/15
+      surge-alloy/25
+    ]
+  }
+}
+requirements: [
+  titanium/40
+  surge-alloy/80
+  silicon/15
+  Strongium/20
+]
+category: crafting
+research: SurgeBatteryP
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: StrongiumBattery/1

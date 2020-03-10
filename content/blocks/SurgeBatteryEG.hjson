@@ -1,0 +1,26 @@
+{
+	"type": "SingleTypeGenerator",
+	"name": "バッテリ発電機(サージバッテリ)",
+	"description": "サージバッテリで発電します。",
+ "health":500,
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"itemDuration": 200,
+	"powerProduction": 3.5,
+	"consumes": {
+		     "items": {
+			"items": [
+				{ "item": "SurgeBattery", "amount": 1 }
+			],
+			"optional": false
+		},
+	},
+	"requirements": [
+		titanium/60
+   surge-alloy/60
+   silicon/15
+	],
+	"category": "power",
+	"research": "SurgeBatteryP"
+}

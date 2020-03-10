@@ -1,0 +1,27 @@
+{
+	"type": "SingleTypeGenerator",
+	"name": "バッテリ発電機(ストロンギウムバッテリ)",
+	"description": "ストロンギウムバッテリで発電します。",
+ "health":1000,
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"itemDuration": 200,
+	"powerProduction": 5.16667,
+	"consumes": {
+		     "items": {
+			"items": [
+				{ "item": "StrongiumBattery", "amount": 1 }
+			],
+			"optional": false
+		},
+	},
+	"requirements": [
+		titanium/40
+   surge-alloy/80
+   silicon/15
+   Strongium/20
+	],
+	"category": "power",
+	"research": "StrongiumBatteryP"
+}
