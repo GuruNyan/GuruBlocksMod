@@ -1,0 +1,29 @@
+{
+	"type": "Fracker",
+	"name": "冷却水ミキサー(改)",
+	"description": "チタンボックスと水ボトルを使って冷却水を大量に搬出します。",
+	"health": 500,
+	"result": "cryofluid",
+ "hasPower":"true",
+ "buildCostMultiplier": 0.5,
+	"consumes":
+	{
+  "power": 2.5
+		"items": {
+		"items": [
+            {"item": "TitaniumBox", "amount": 1},
+            {"item": "WaterBottle", "amount": 1}
+        ]
+	}
+	},
+	"size": 3,
+	"pumpAmount": 2.5
+	"requirements": [
+		{"item": "copper", "amount": 1000},
+		{"item": "lead", "amount": 500},
+   {"item": "graphite", "amount": 500}
+	],
+	"category": "production",
+	"research": "cryofluidmixer",
+	"liquidCapacity": 500
+}
