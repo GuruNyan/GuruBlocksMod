@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: シリコン溶鉱炉(電力+ アイテム-)
-description: 電力を多めに使う代わりに砂と石炭が1つずつでシリコンを製造します。
+description: 電力を大量に使う代わりに砂と石炭が1つずつでシリコンを製造します。
 health: 400
 liquidCapacity: 30
 size: 2
@@ -10,7 +10,7 @@ hasItems: true
 craftTime: 30
 updateEffect: smeltsmoke
 consumes: {
-  power: 5
+  power: 20
   items: {
     items: [
       coal/1
