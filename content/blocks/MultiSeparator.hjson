@@ -1,0 +1,46 @@
+name: マルチ分離機
+description: 分離機よりも高いランクの鉱石が取れます。
+type: Separator
+craftTime: 30
+spinnerRadius: 0
+spinnerLength: 0
+spinnerThickness: 0
+spinnerSpeed: 0
+color: 000000
+results: [
+	lead/25
+	graphite/25
+	titanium/25
+	thorium/25
+]
+
+consumes: {
+	items: {
+		items: [
+
+		]
+	}
+	power: {
+		usage: 3
+		capacity: 10
+	}
+  liquid: {
+    liquid: slag
+    amount: 0.15
+  }
+}
+
+hasPower: true
+hasLiquid: true
+hasItems: true
+
+size: 3
+requirements: [
+	lead/25
+	graphite/25
+ titanium/25
+ thorium/25
+]
+category: effect
+
+research: separator
