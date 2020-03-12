@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: 培養機(改)
+description: 培養機よりも効率よく胞子ポッドを生産します。
+health: 300
+liquidCapacity: 30
+itemCapacity:30
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 0
+updateEffect: smeltsmoke
+consumes: {
+  power: 4
+  items: {
+    items: [
+      WaterBottle/1
+    ]
+  }
+}
+requirements: [
+  copper/100
+  lead/100
+  graphite/150
+  silicon/200
+  titanium/100
+]
+category: crafting
+research: cultivator
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: spore-pod/10
