@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: 黒鉛逆変換
+description: 黒鉛を石炭に変換します。
+health: 360
+liquidCapacity: 50
+itemCapacity:50
+size: 2
+hasPower: false
+hasLiquids: true
+hasItems: true
+craftTime: 30
+updateEffect: smeltsmoke
+consumes: {
+  items: {
+    items: [
+      graphite/2
+    ]
+  }
+}
+requirements: [
+  copper/100
+  lead/100
+  graphite/100
+]
+category: crafting
+research: graphite-press
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: coal/1

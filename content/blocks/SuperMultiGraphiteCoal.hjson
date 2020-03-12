@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: スーパーマルチ黒鉛逆変換
+description: マルチ黒鉛逆変換より効率よく逆変換します。
+health: 750
+liquidCapacity: 50
+itemCapacity:50
+size: 3
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 15
+updateEffect: smeltsmoke
+consumes: {
+  power: 15
+  items: {
+    items: [
+      graphite/2
+    ]
+  }
+}
+requirements: [
+  copper/1500
+  lead/1500
+  graphite/1500
+  silicon/1500
+  titanium/1500
+]
+category: crafting
+research: MultiGraphiteCoal
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: coal/5
