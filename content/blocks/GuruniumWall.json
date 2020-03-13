@@ -1,0 +1,15 @@
+{
+	"name": "グルニウム壁",
+	"description": "高コスト、高強度。",
+	"health": 2500000,
+	"size": 2,
+	"update": true,
+	"BlockGroup": "walls",
+	"solid": true,
+	"buildCostMultiplier": 150,
+	"requirements": [
+		{ "item": "Gurunium", "amount": 24 }
+	],
+	"category": "defense",
+	"research": "duo"
+}

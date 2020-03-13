@@ -1,0 +1,12 @@
+type: PowerNode
+name: グルニウムタワー
+description: 広範囲、好強度、高コスト。
+health:1500000
+size: 3
+requirements: [
+  Gurunium/1
+]
+laserRange: 75
+maxNodes: 7500
+category: power
+research: power-node

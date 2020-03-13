@@ -1,0 +1,21 @@
+type: SolarGenerator
+name: ウルトラソーラーパネル
+description: 高コスト、電力大量生産。
+size: 1
+hasPower: true
+hasItems: true
+itemDuration: 30
+powerProduction: 166.666667
+consumes: {
+  items: {
+    items: [
+    ]
+    optional: true
+  }
+}
+requirements: [
+  Gurunium/1
+  silicon/96
+]
+category: power
+research: solar-panel

@@ -1,7 +1,7 @@
 type: GenericCrafter
 name: グルニウム製造機
 description: グルニウムを製造します。
-health: 9626
+health: 29626
 liquidCapacity: 962
 itemCapacity: 96
 size: 4

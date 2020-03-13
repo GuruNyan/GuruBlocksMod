@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: 銅製造機
+description: 銅1個で1001個の銅を製造します。
+health: 1000
+liquidCapacity: 30
+itemCapacity:1001
+size: 1
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 0
+updateEffect: smeltsmoke
+consumes: {
+  power: 2000
+  items: {
+    items: [
+      copper/1
+    ]
+  }
+}
+requirements: [
+  Gurunium/20
+]
+category: crafting
+research: duo
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: copper/1001

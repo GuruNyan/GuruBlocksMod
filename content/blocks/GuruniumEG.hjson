@@ -1,0 +1,31 @@
+{
+	"type": "SingleTypeGenerator",
+	"name": "グルニウム発電機",
+	"description": "グルニウムを使って発電します。",
+ "health":3500,
+	"size": 3,
+	"hasPower": true,
+	"hasItems": true,
+	"itemDuration": 5772,
+	"powerProduction": 16000,
+  buildCostMultiplier: 0.01
+	"consumes": {
+		     "items": {
+			"items": [
+				{ "item": "Gurunium", "amount": 1 }
+			],
+			"optional": true
+		},
+	},
+	"requirements": [
+ 		Gurunium/5
+   surge-alloy/10000
+   silicon/150000
+   graphite/150000
+   thorium/50000
+   plastanium/35000
+   copper/1000000
+	],
+	"category": "power",
+	"research": "power-node"
+}
