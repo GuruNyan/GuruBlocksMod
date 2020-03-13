@@ -1,0 +1,48 @@
+type: GenericCrafter
+name: グルニウム製造機
+description: グルニウムを製造します。
+health: 9626
+liquidCapacity: 962
+itemCapacity: 96
+size: 4
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 5760
+buildCostMultiplier: 0.34201
+updateEffect: smeltsmoke
+consumes: {
+  power: 16.043333
+  items: {
+    items: [
+      copper/15
+      lead/15
+      metaglass/10
+      graphite/10
+      titanium/10
+      thorium/8
+      silicon/12
+      plastanium/8
+      phase-fabric/8
+      surge-alloy/7
+    ]
+  }
+  liquid: {
+    liquid: slag
+    amount:0.01667
+  }
+}
+requirements: [
+  copper/9626
+  lead/9626
+  thorium/962
+  phase-fabric/962
+  silicon/962
+  surge-alloy/962
+  plastanium/962
+]
+category: crafting
+research: alloy-smelter
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: Gurunium/1
