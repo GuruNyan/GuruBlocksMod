@@ -1,0 +1,42 @@
+name: ウルトラ修復ターミナル
+description: 超コスト、超回復。
+type: MendProjector
+color:84f491
+health: 99626
+size: 3
+requirements: [
+  Gurunium/30000000
+]
+buildCostMultiplier: 0.0005
+category: effect
+research:  MenderTerminal
+hasPower:true
+consumes: {
+  power: 2000
+   items: {
+   booster:true
+   optional:true
+    items: [
+    ]
+  }
+}
+
+reload:1
+range:800
+healpercent:100
+phaseRangeBoost: 0
+phaseBoost:0
+useTime:400
+
+
+
+
+
+
+
+
+
+
+
+
+

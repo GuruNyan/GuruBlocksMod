@@ -1,0 +1,22 @@
+type: UnitFactory
+localizedName: ファントム製造機(電力+)
+description: 電力のみ使うファントム製造機です。電力を大量に使います。
+health: 99626
+produceTime: 1
+maxSpawn: 40
+unitType: phantom
+hasPower: true
+itemCapacity: 0
+consumes: {
+  power: 25000
+  items: {
+    items: [
+    ]
+  }
+}
+size: 3
+category: units
+requirements: [
+  Gurunium/500
+]
+research: phantom-factory

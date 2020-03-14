@@ -1,0 +1,14 @@
+{
+	"type": "ArmoredConveyor",
+	"name": "装甲グルニウムコンベア",
+	"description": "上位のアイテム輸送ブロックです。グルニウムコンベアと同じ速度でアイテムを輸送します。耐久値が高く、横からの搬入を防ぎます。",
+	"health": 5000,
+ "itemCapacity": 32,
+	"requirements": [
+		{"item": "Gurunium", "amount": 3}
+	],
+	"category": "distribution",
+	"speed": 1,
+ "displayedSpeed": 60
+	"research": "GuruniumConveyor"
+}

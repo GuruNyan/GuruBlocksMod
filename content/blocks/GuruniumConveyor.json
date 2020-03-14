@@ -1,0 +1,14 @@
+{
+	"type": "Conveyor",
+	"name": "グルニウムコンベア",
+	"description": "上位のアイテム輸送ブロックです。トリウムコンベアよりも速くアイテムを輸送します。",
+	"health": 1000,
+ "itemCapacity": 32,
+	"requirements": [
+		{"item": "Gurunium", "amount": 1}
+	],
+	"category": "distribution",
+	"speed": 1,
+ "displayedSpeed": 60
+	"research": "ThoriumConveyor"
+}

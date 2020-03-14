@@ -1,0 +1,30 @@
+type: DoubleTurret
+name: ウルトラサンドガン
+description: 高コスト、高撃力.。
+health: 9626
+size: 3
+reload: 1
+range: 770.08
+ammoUseEffect: shellEjectSmall
+inaccuracy: 0
+rotatespeed: 600
+buildCostMultiplier: 0.01
+ammo: {
+  SandBox: {
+    speed: 100
+    damage: 1
+    bulletWidth: 7
+    bulletHeight: 9
+    shootEffect: shootSmall
+    smokeEffect: shootSmallSmoke
+    ammoMultiplier: 1
+    splashDamage: 99662266
+    splashDamageRadius: 77008
+  }
+}
+requirements: [
+  Gurunium/10000
+  SandBox/500000
+]
+category: turret
+research: SuperSandGun

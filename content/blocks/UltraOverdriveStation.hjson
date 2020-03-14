@@ -21,7 +21,7 @@ consumes: {
   }
 }
 reload:60
-range:600
+range:80
 speedBoost:10000
 speedBoostPhase:0
 phaseRangeBoost:0

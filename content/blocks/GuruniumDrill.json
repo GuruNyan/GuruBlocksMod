@@ -1,0 +1,17 @@
+{
+	"name": "グルニウムドリル",
+	"description": "最上位ドリルより速く掘ります。最上位()",
+	"type": "Drill",
+	"size": 2,
+	"tier": 1000,
+	"drillTime": 1,
+	"consumes": {
+		"power": 30000
+	},
+	"requirements": [
+		{ "item": "Gurunium", "amount": 100000 },
+		{ "item": "surge-alloy", "amount": 10000 }
+	],
+	"category": "production",
+	"research": "CryofluidDrill"
+}

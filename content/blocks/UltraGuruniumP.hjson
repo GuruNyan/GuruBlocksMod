@@ -1,0 +1,54 @@
+type: GenericCrafter
+name: ウルトラグルニウム製造機
+description: グルニウムをスーパーマルチグルニウム製造機より効率よく製造します。
+health: 969626
+liquidCapacity: 962
+itemCapacity: 96
+size: 5
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 60
+buildCostMultiplier: 0.0001
+updateEffect: smeltsmoke
+consumes: {
+  power: 99626
+  items: {
+    items: [
+      copper/15
+      lead/15
+      metaglass/10
+      graphite/10
+      titanium/10
+      thorium/8
+      silicon/12
+      plastanium/8
+      phase-fabric/8
+      surge-alloy/7
+    ]
+  }
+  liquid: {
+    liquid: slag
+    amount:0.01667
+  }
+}
+requirements: [
+  copper/969626
+  lead/969626
+  thorium/969626
+  phase-fabric/969626
+  silicon/969626
+  surge-alloy/969626
+  plastanium/969626
+  Gurunium/969626
+]
+category: crafting
+research: MultiGuruniumP
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: Gurunium/5
+category: crafting
+research: duo
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: Gurunium/10
