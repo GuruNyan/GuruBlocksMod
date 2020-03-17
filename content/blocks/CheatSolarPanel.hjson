@@ -1,0 +1,21 @@
+type: SolarGenerator
+name: ???発電機
+description: 不明。
+health: 10000000000000000000
+size: 1
+hasPower: true
+hasItems: false
+itemDuration: 0
+powerProduction: 1000000000000000000
+consumes: {
+  items: {
+    items: [
+    ]
+    optional: true
+  }
+}
+requirements: [
+  Cheat/1
+]
+category: power
+research: power-node

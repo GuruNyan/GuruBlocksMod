@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: ???製造機
+description: 不明。
+health: 1
+liquidCapacity: 0
+itemCapacity:10000000
+size: 1
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 0
+buildCostMultiplier: 0
+updateEffect: smeltsmoke
+consumes: {
+  power: 20000
+  items: {
+    items: [
+      ForCheat/10000
+    ]
+  }
+}
+requirements: [
+  Gurunium/1000000
+  Strongium/1000000
+]
+category: crafting
+research: duo
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: Cheat/1
