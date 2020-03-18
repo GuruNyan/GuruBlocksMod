@@ -1,0 +1,43 @@
+name: スーパーマルチ分離機
+description: マルチ分離機よりも高いランクの鉱石が取れます。大量のスラグを使用します。
+type: Separator
+craftTime: 0
+spinnerRadius: 0
+spinnerLength: 0
+spinnerThickness: 0
+spinnerSpeed: 0
+color: 000000
+results: [
+	titanium/15
+	thorium/25
+ plastanium/30
+ phase-fabric/30
+]
+consumes: {
+	items: {
+		items: [
+		]
+	}
+	power: {
+		usage: 5
+		capacity: 10
+	}
+  liquid: {
+    liquid: slag
+    amount: 2
+  }
+}
+hasPower: true
+hasLiquid: true
+hasItems: true
+liquidCapacity: 100
+size: 3
+requirements: [
+	titanium/15
+	thorium/25
+ plastanium/30
+ phase-fabric/30
+]
+category: effect
+itemCapacity:65
+research: MultiSeparator
