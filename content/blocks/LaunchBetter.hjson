@@ -1,13 +1,13 @@
 name: 発射台(改)
 description: 爆発はしません。
 type: LaunchPad
-itemCapacity: 50
+itemCapacity: 1
 hasItems: true
 health: 1
 consumesPower:false
 size: 4
 powerUse: 15
-launchTime: 60
+launchTime: 0
 requirements: [
  copper/1
 ]
