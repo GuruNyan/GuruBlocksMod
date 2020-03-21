@@ -16,7 +16,7 @@
 	}
 	},
 	"size": 2,
-	"pumpAmount": 0.5
+	"pumpAmount": 1.6666667
 	"requirements": [
 		{"item": "copper", "amount": 100},
 		{"item": "lead", "amount": 100},
@@ -25,6 +25,6 @@
 	],
 	"category": "production",
 	"research": "melter",
-	"liquidCapacity": 60,
+	"liquidCapacity": 300,
  "itemCapacity": 60
 }

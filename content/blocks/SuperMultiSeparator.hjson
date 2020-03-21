@@ -1,7 +1,7 @@
 name: スーパーマルチ分離機
 description: マルチ分離機よりも高いランクの鉱石が取れます。大量のスラグを使用します。
 type: Separator
-craftTime: 5
+craftTime: 0
 spinnerRadius: 0
 spinnerLength: 0
 spinnerThickness: 0
@@ -38,5 +38,5 @@ requirements: [
  phase-fabric/30
 ]
 category: effect
-itemCapacity:65
+itemCapacity: 100
 research: MultiSeparator
