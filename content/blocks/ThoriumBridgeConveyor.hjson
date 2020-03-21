@@ -1,0 +1,20 @@
+name: トリウムブリッジコンベア
+description: ブリッジコンベアの上位互換です。
+type: itemBridge
+health: 50
+size: 1
+range: 7
+hasPower: true
+itemCapacity: 40
+transportSpeed: 60
+consumes: {
+  power: 0.25
+}
+requirements: [
+  lead/7
+  graphite/7
+  silicon/5
+  thorium/3
+]
+category: distribution
+research: bridge-conveyor

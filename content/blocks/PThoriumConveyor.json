@@ -1,0 +1,16 @@
+{
+	"type": "ArmoredConveyor",
+	"name": "トリウム装甲コンベア",
+	"description": "上位のアイテム輸送ブロックです。チタンコンベアよりも速くアイテムを輸送します。耐久値が高く、横からの搬入を受けません。",
+	"health": 300,
+ "itemCapacity": 8,
+	"requirements": [
+		{"item": "metaglass", "amount": 3},
+		{"item": "plastanium", "amount": 3},
+		{"item": "thorium", "amount": 3}
+	],
+	"category": "distribution",
+	"speed": 0.19,
+ "displayedSpeed": 15
+	"research": "ThoriumConveyor"
+}
