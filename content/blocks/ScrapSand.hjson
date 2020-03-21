@@ -1,0 +1,29 @@
+type: GenericCrafter
+name: 粉砕機(改)
+description: スクラップを砂に変換します。
+health: 300
+liquidCapacity: 0
+itemCapacity:30
+size: 1
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 0
+updateEffect: smeltsmoke
+consumes: {
+  power: 2
+  items: {
+    items: [
+      scrap/1
+    ]
+  }
+}
+requirements: [
+  graphite/50
+  silicon/50
+]
+category: crafting
+research: pulverizer
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: sand/30
