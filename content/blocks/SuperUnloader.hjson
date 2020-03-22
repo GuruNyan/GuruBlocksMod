@@ -1,0 +1,22 @@
+type: Unloader
+name: 搬出機(改)
+description: より速い搬出機です。
+health: 150
+liquidCapacity: 0
+itemCapacity:30
+size: 1
+hasPower: true
+hasLiquids: false
+hasItems: true
+speed: 0
+updateEffect: smeltsmoke
+consumes: {
+  power: 0.5
+}
+requirements: [
+  thorium/50
+  plastanium/50
+  phase-fabric/30
+]
+category: effect
+research: unloader

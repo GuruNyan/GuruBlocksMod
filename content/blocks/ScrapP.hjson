@@ -1,0 +1,30 @@
+type: GenericCrafter
+name: スクラップ製造機
+description: 銅と鉛からスクラップを製造します。
+health: 300
+liquidCapacity: 0
+itemCapacity:30
+size: 1
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 0
+updateEffect: smeltsmoke
+consumes: {
+  power: 1
+  items: {
+    items: [
+      copper/2
+      lead/1
+    ]
+  }
+}
+requirements: [
+  copper/75
+  lead/50
+]
+category: crafting
+research: duo
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: scrap/60

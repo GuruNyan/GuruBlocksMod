@@ -42,5 +42,5 @@ requirements: [
  thorium/25
 ]
 category: effect
-
+liquidCapacity: 300
 research: separator

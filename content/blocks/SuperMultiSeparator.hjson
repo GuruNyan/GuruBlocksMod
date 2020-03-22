@@ -39,4 +39,5 @@ requirements: [
 ]
 category: effect
 itemCapacity: 100
+liquidCapacity: 500
 research: MultiSeparator
