@@ -1,7 +1,7 @@
 {
 	"type": "Fracker",
 	"name": "水生成機",
-	"description": "内部に発電機があり、そこで発電した電力で地面から水を組み上げます。",
+	"description": "ウォーターポンプよりも効率よく水を組み上げます。",
 	"health": 300,
 	"result": "water",
  "hasPower":"false",
@@ -9,12 +9,11 @@
 	{
 		"items": {
 		"items": [
-            {"item": "coal", "amount": 1}
         ]
 	}
 	},
 	"size": 2,
-	"pumpAmount": 0.25
+	"pumpAmount": 1
 	"requirements": [
 		{"item": "copper", "amount": 100},
 		{"item": "lead", "amount": 50},
