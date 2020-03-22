@@ -1,0 +1,31 @@
+type: GenericCrafter
+name: ピラタイト製造機(改)
+description: ピラタイト製造機よりも効率よく製造します。
+health: 300
+liquidCapacity: 0
+itemCapacity:30
+size: 2
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 0
+updateEffect: smeltsmoke
+consumes: {
+  power: 1
+  items: {
+    items: [
+      coal/1
+      lead/1
+      sand/1
+    ]
+  }
+}
+requirements: [
+  copper/75
+  lead/50
+]
+category: crafting
+research: PyratiteZip
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: pyratite/10
