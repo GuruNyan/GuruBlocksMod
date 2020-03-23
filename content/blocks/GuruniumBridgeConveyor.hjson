@@ -1,5 +1,5 @@
 name: グルニウムブリッジコンベア
-description: グルニウムコンベアの上位互換です。
+description: トリウムブリッジコンベアの上位互換です。
 type: itemBridge
 health: 500
 size: 1
