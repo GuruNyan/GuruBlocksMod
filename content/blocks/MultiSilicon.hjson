@@ -14,8 +14,8 @@ consumes: {
   power: 1.8
   items: {
     items: [
-      coal/3
-      sand/2
+      coal/2
+      sand/3
     ]
   }
   liquid: {
