@@ -1,0 +1,17 @@
+name: グルニウムブリッジコンベア
+description: グルニウムコンベアの上位互換です。
+type: itemBridge
+health: 500
+size: 1
+range: 50
+hasPower: true
+itemCapacity: 40
+transportSpeed: 120
+consumes: {
+  power: 1
+}
+requirements: [
+  Gurunium/25
+]
+category: distribution
+research: ThoriumBridgeConveyor

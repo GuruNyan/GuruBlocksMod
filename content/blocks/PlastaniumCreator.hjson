@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: プラスタニウム製造機
+description: プラスタニウム1個で1001個のプラスタニウムを製造します。
+health: 1000
+liquidCapacity: 30
+itemCapacity:1001
+size: 1
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 0
+updateEffect: smeltsmoke
+consumes: {
+  power: 2000
+  items: {
+    items: [
+      plastanium/1
+    ]
+  }
+}
+requirements: [
+  Gurunium/50
+]
+category: crafting
+research: MetaglassCreator
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: plastanium/1001

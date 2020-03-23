@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: シリコン製造機
+description: シリコン1個で1001個のシリコンを製造します。
+health: 1000
+liquidCapacity: 30
+itemCapacity:1001
+size: 1
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 0
+updateEffect: smeltsmoke
+consumes: {
+  power: 2000
+  items: {
+    items: [
+      silicon/1
+    ]
+  }
+}
+requirements: [
+  Gurunium/40
+]
+category: crafting
+research: GraphiteCreator
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: silicon/1001

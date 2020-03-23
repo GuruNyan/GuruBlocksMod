@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: 黒鉛製造機
+description: 黒鉛1個で1001個の黒鉛を製造します。
+health: 1000
+liquidCapacity: 30
+itemCapacity:1001
+size: 1
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 0
+updateEffect: smeltsmoke
+consumes: {
+  power: 2000
+  items: {
+    items: [
+      graphite/1
+    ]
+  }
+}
+requirements: [
+  Gurunium/35
+]
+category: crafting
+research: ThoriumCreator
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: graphite/1001

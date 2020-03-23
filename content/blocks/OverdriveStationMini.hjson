@@ -1,0 +1,32 @@
+name: 加速ステーション(小範囲)
+description: 中型の加速ステーション。\n恩恵もコストもオーバースペック。範囲が小さいので限定的に加速させたい場合に使えます。
+type: OverdriveProjector
+health: 1500
+size: 2
+requirements: [
+ LeadBox/15
+ TitaniumBox/10
+ SiliconBox/10
+ PlastaniumBox/3
+]
+category: effect
+research:  overdrive-projector
+buildCostMultiplier:0.5
+hasPower:true
+consumes: {
+  power: 10
+  items: {
+   booster:true
+   optional:true
+    items: [
+	    phase-fabric/5
+    ]
+  }
+}
+
+reload:60
+range:40
+speedBoost:2
+speedBoostPhase:12
+phaseRangeBoost:-16
+useTime:160

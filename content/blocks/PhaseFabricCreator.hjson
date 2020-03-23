@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: フェーズファイバー製造機
+description: フェーズファイバー1個で1001個のフェーズファイバーを製造します。
+health: 1000
+liquidCapacity: 30
+itemCapacity:1001
+size: 1
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 0
+updateEffect: smeltsmoke
+consumes: {
+  power: 2000
+  items: {
+    items: [
+      phase-fabric/1
+    ]
+  }
+}
+requirements: [
+  Gurunium/55
+]
+category: crafting
+research: PlastaniumCreator
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: phase-fabric/1001

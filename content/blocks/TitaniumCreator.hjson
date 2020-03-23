@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: チタン製造機
+description: チタン1個で1001個のチタンを製造します。
+health: 1000
+liquidCapacity: 30
+itemCapacity:1001
+size: 1
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 0
+updateEffect: smeltsmoke
+consumes: {
+  power: 2000
+  items: {
+    items: [
+      titanium/1
+    ]
+  }
+}
+requirements: [
+  Gurunium/25
+]
+category: crafting
+research: LeadCreator
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: titanium/1001

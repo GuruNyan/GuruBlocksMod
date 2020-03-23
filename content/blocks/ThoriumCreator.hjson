@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: トリウム製造機
+description: トリウム1個で1001個のトリウムを製造します。
+health: 1000
+liquidCapacity: 30
+itemCapacity:1001
+size: 1
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 0
+updateEffect: smeltsmoke
+consumes: {
+  power: 2000
+  items: {
+    items: [
+      thorium/1
+    ]
+  }
+}
+requirements: [
+  Gurunium/30
+]
+category: crafting
+research: TitaniumCreator
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: thorium/1001

@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: メタガラス製造機
+description: メタガラス1個で1001個のメタガラスを製造します。
+health: 1000
+liquidCapacity: 30
+itemCapacity:1001
+size: 1
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 0
+updateEffect: smeltsmoke
+consumes: {
+  power: 2000
+  items: {
+    items: [
+      metaglass/1
+    ]
+  }
+}
+requirements: [
+  Gurunium/45
+]
+category: crafting
+research: SiliconCreator
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: metaglass/1001
