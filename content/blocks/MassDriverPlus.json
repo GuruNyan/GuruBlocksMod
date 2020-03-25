@@ -1,0 +1,28 @@
+{
+"type": "massDriver",
+"name" : "マスドライバー(改)",
+"description": "小サイズで速く飛ばします。",
+"hasPower": true,
+"size" : 1,
+"consumes": {
+	"power": 10
+	}, 
+"itemCapacity" : 1000,
+"reloadTime" : 0,
+"translation": 50,
+"minDistribute": 10,
+"buildTime": 0,
+"rotateSpeed": 360,
+"buildCostMultiplier": 0.01,
+"range": 700,
+"shake" :0,
+"requirements": [
+{ "item": "silicon", "amount": 300 },
+{ "item": "graphite", "amount": 300 },
+{ "item": "lead", "amount": 500 },
+{ "item": "copper", "amount": 500 },
+{ "item": "plastanium", "amount": 150 }
+],
+"category": "distribution",
+"research": "mass-driver"
+}

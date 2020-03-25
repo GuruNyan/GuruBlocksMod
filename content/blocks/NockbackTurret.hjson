@@ -1,6 +1,6 @@
 type: DoubleTurret
-name: スーパーサンドガン
-description: 砂を用いた超連射型タレットです。
+name: ノックバックタレット
+description: 銅を用いたノックバックタレットです。
 health: 1000
 size: 3
 reload: 0.5
@@ -8,20 +8,21 @@ shots: 10
 range: 240
 itemCapacity: 50
 ammoUseEffect: shellEjectSmall
-inaccuracy: 15
+inaccuracy: 0
 spacing: 1
 alternate: true
 rotatespeed: 600
 ammo: {
-  SandBox: {
+  copper: {
     speed: 10
-    damage: 150
+    damage: 0
     bulletWidth: 7
     bulletHeight: 9
     shootEffect: shootSmall
     smokeEffect: shootSmallSmoke
-    ammoMultiplier: 15
-    reloadMultiplier: 3
+    ammoMultiplier: 1
+    reloadMultiplier: 1
+    knockback: 5
   }
 }
 requirements: [

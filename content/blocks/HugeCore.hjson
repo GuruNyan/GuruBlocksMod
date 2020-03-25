@@ -1,0 +1,18 @@
+{
+"name": "巨大コア",
+"description": "コアと同じ役割を果たします、プレイヤによって破壊はできません。",
+"type": "coreBlock",
+"hasItems": true,
+"itemCapacity": 500000,
+"health": 3000,
+"size": 8,
+"requirements": [
+{ "item": "copper", "amount": 1000 },
+{ "item": "lead", "amount": 1000 },
+{ "item": "graphite", "amount": 700 },
+{ "item": "silicon", "amount": 700 },
+{ "item": "plastanium", "amount": 500 }
+],
+"category": "effect",
+"research": "core-shard"
+}
