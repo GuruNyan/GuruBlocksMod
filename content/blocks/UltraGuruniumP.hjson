@@ -33,14 +33,14 @@ consumes: {
   }
 }
 requirements: [
-  copper/969626
-  lead/969626
-  thorium/969626
-  phase-fabric/969626
-  silicon/969626
-  surge-alloy/969626
-  plastanium/969626
-  Gurunium/969626
+  copper/99626
+  lead/99626
+  thorium/9626
+  phase-fabric/9626
+  silicon/9626
+  surge-alloy/9626
+  plastanium/9626
+  Gurunium/962
 ]
 category: crafting
 research: MultiGuruniumP
