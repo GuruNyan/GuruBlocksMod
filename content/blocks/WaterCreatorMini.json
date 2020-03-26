@@ -1,0 +1,26 @@
+{
+	"type": "Fracker",
+	"name": "1x1水生成機",
+	"description": "ウォーターポンプよりも効率よく水を組み上げます。サイズが小さいです。",
+	"health": 100,
+	"result": "water",
+ "hasPower":"true",
+	"consumes":
+	{
+   "power":30
+		"items": {
+		"items": [
+        ]
+	}
+	},
+	"size": 1,
+	"pumpAmount": 1
+	"requirements": [
+		{"item": "copper", "amount": 10},
+		{"item": "lead", "amount": 5},
+   {"item": "graphite", "amount": 5}
+	],
+	"category": "production",
+	"research": "water-extractor",
+	"liquidCapacity": 60
+}

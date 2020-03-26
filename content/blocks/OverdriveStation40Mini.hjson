@@ -1,0 +1,28 @@
+name: 40倍加速ステーション(小範囲)
+description: 中型の加速ステーション。\n恩恵もコストもオーバースペック。
+type: OverdriveProjector
+health: 150000
+size: 2
+requirements: [
+ Gurunium/25
+]
+category: effect
+research:  overdrive-projector
+buildCostMultiplier:1
+hasPower:true
+consumes: {
+  power: 25
+  items: {
+   booster:true
+   optional:true
+    items: [
+    ]
+  }
+}
+
+reload:60
+range:40
+speedBoost:40
+speedBoostPhase:0
+phaseRangeBoost:0
+useTime:300

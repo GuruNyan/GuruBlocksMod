@@ -4,7 +4,7 @@
 	"description": "ウォーターポンプよりも効率よく水を組み上げます。",
 	"health": 300,
 	"result": "water",
- "hasPower":"false",
+ "hasPower":"true",
 	"consumes":
 	{
    "power":6

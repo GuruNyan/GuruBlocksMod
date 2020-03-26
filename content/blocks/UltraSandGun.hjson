@@ -24,7 +24,7 @@ ammo: {
 }
 requirements: [
   Gurunium/10000
-  SandBox/500000
+  SandBox/10000
 ]
 category: turret
 research: SuperSandGun
