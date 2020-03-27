@@ -33,14 +33,14 @@ consumes: {
   }
 }
 requirements: [
-  copper/99626
-  lead/99626
-  thorium/9626
-  phase-fabric/9626
-  silicon/9626
-  surge-alloy/9626
-  plastanium/9626
-  Gurunium/962
+  copper/9626
+  lead/9626
+  thorium/962
+  phase-fabric/962
+  silicon/962
+  surge-alloy/962
+  plastanium/962
+  Gurunium/96
 ]
 category: crafting
 research: duo

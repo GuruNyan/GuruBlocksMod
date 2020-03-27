@@ -1,0 +1,32 @@
+type: GenericCrafter
+name: マルチストロンギウム製造機
+description: いくつかの鉱石をストロンギウムに固めます
+health: 700
+liquidCapacity: 0
+itemCapacity:30
+size: 3
+hasPower: true
+hasLiquids: false
+hasItems: true
+craftTime: 60
+updateEffect: smeltsmoke
+consumes: {
+  power: 60
+  items: {
+    items: [
+      CopperBox/5
+      GraphiteBox/2
+      TitaniumBox/2
+    ]
+  }
+}
+requirements: [
+  copper/500
+  silicon/400
+  titanium/250
+]
+category: crafting
+research: StrongiumP
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: Strongium/5
