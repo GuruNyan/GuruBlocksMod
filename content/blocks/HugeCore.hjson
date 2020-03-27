@@ -14,5 +14,5 @@
 { "item": "plastanium", "amount": 500 }
 ],
 "category": "effect",
-"research": "core-shard"
+"research": "MediumCore"
 }

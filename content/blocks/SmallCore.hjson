@@ -13,5 +13,5 @@
 { "item": "silicon", "amount": 10 },
 ],
 "category": "effect",
-"research": "core-shard"
+"research": "MediumCore"
 }

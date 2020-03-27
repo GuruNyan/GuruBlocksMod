@@ -43,7 +43,7 @@ requirements: [
   Gurunium/962
 ]
 category: crafting
-research: duo
+research: MultiGuruniumP
 idleSound: respawning
 idleSoundVolume: 0.5
 outputItem: Gurunium/5
