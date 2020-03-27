@@ -1,0 +1,17 @@
+{
+"name": "小型コア",
+"description": "コアと同じ役割を果たします、プレイヤによって破壊はできません。",
+"type": "coreBlock",
+"hasItems": true,
+"itemCapacity": 500000,
+"health": 3000,
+"size": 1,
+"requirements": [
+{ "item": "copper", "amount": 30 },
+{ "item": "lead", "amount": 30 },
+{ "item": "graphite", "amount": 10 },
+{ "item": "silicon", "amount": 10 },
+],
+"category": "effect",
+"research": "core-shard"
+}

@@ -1,0 +1,28 @@
+type: GenericCrafter
+name: サージ合金製造機
+description: サージ合金1個で1001個のサージ合金を製造します。
+health: 1000
+liquidCapacity: 30
+itemCapacity:1001
+size: 1
+hasPower: true
+hasLiquids: true
+hasItems: true
+craftTime: 0
+updateEffect: smeltsmoke
+consumes: {
+  power: 2000
+  items: {
+    items: [
+      surge-alloy/1
+    ]
+  }
+}
+requirements: [
+  Gurunium/60
+]
+category: crafting
+research: PhaseFabricCreator
+idleSound: respawning
+idleSoundVolume: 0.5
+outputItem: surge-alloy/1001

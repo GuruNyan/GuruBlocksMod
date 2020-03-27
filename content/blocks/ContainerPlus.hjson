@@ -1,0 +1,13 @@
+name: 大容量コンテナ
+description: 250ミリオン(2億5000万)アイテム入るコンテナです。
+type: Vault
+itemCapacity: 250000000
+hasItems: true
+health: 10000
+consumesPower:false
+size: 2
+requirements: [
+ copper/100
+]
+category: effect
+research:  container
