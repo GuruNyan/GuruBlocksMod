@@ -1,0 +1,14 @@
+type: PowerNode
+name: 電源ノード+
+description: 広範囲、小サイズ。
+health:1500
+size: 1
+requirements: [
+  copper/250
+  lead/250
+  silicon/150
+]
+laserRange: 22.5
+maxNodes: 750
+category: power
+research: power-node
