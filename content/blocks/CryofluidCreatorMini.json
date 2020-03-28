@@ -1,0 +1,27 @@
+{
+	"type": "Fracker",
+	"name": "1x1冷却水ポンプ",
+	"description": "冷却水を地面から組み上げます。",
+	"health": 250,
+	"result": "cryofluid",
+ "hasPower":"true",
+ "buildCostMultiplier": 0.5,
+	"consumes":
+	{
+  "power": 1.5
+		"items": {
+		"items": [
+        ]
+	}
+	},
+	"size": 1,
+	"pumpAmount": 0.5
+	"requirements": [
+		{"item": "copper", "amount": 250},
+		{"item": "lead", "amount": 50},
+   {"item": "graphite", "amount": 50}
+	],
+	"category": "production",
+	"research": "cryofluidmixer",
+	"liquidCapacity": 250
+}
