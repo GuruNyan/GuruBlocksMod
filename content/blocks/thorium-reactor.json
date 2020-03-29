@@ -1,0 +1,27 @@
+{
+	"name": "コア破壊",
+	"description": "周囲1ブロックを破壊します。",
+	"size": 1,
+ "health": 1,
+	"category": "effect",
+	"requirements": [],
+	"consumes": {
+		"items": {
+			"items": [
+				{ "item": "sand", "amount": 1}
+			]
+		},
+		"liquid": {
+			"liquid": "cryofluid",
+			"amount": 10000000
+		}
+	},
+	"itemCapacity": 1,
+	"hasPower": true,
+ "explosionRadius": 2,
+ "explosionDamage": 3000,
+	"powerProduction": 0,
+	"itemDuration": 6000,
+ "liquidCapacity": 600000000,
+	"heating": 1
+}
